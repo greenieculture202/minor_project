@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "69c3d8cb9a8aca865691969e",
+    "title": "Premium Ceramic Pots",
+    "category": "Pots",
+    "description": "Handcrafted ceramic pots with drainage holes, perfect for indoor plants. Available in multiple earthy tones.",
+    "image": "assets/care_pots.png",
+    "price": 29.99,
+    "details": "Enhance your home decor with our premium ceramic pots. Designed for both style and plant health, these pots feature excellent drainage and breathability.",
+    "createdAt": "2026-03-25T12:44:59.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d8cb9a8aca865691969f",
+    "title": "Gardening Tool Set",
+    "category": "Tools",
+    "description": "Essential gardening tools including a trowel, fork, and shears. Made with durable copper and ergonomic wooden handles.",
+    "image": "assets/care_tools.png",
+    "price": 45.5,
+    "details": "This 3-piece gardening set is built to last. The copper heads resist rust while the ash wood handles provide a comfortable grip for all your planting needs.",
+    "createdAt": "2026-03-25T12:44:59.753Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d8cb9a8aca86569196a0",
+    "title": "Organic Fertilizer",
+    "category": "Fertilizers",
+    "description": "A nutrient-rich organic blend to boost plant growth and health. Safe for pets and children.",
+    "image": "assets/care_fertilizer.png",
+    "price": 18,
+    "details": "Give your plants the nutrients they crave with our 100% organic fertilizer. Promotes strong root development and vibrant foliage without harsh chemicals.",
+    "createdAt": "2026-03-25T12:44:59.753Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d8cb9a8aca86569196a1",
+    "title": "Modern Watering Can",
+    "category": "Watering",
+    "description": "Sleek metal watering can with a long spout for precise watering. A stylish addition to your plant corner.",
+    "image": "assets/care_watering_can_2.png",
+    "price": 32,
+    "details": "Watering becomes a joy with this perfectly balanced can. The long spout allows you to reach deep into foliage to water the soil directly, preventing leaf rot.",
+    "createdAt": "2026-03-25T12:44:59.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d8cb9a8aca86569196a2",
+    "title": "Halo Grow Light",
+    "category": "Lighting",
+    "description": "A sleek, modern LED halo grow light ring inserted into a potted plant pot. Emitting a warm, cozy light.",
+    "image": "assets/care_light.png",
+    "price": 55,
+    "details": "High-tech, minimalist home decor. This full-spectrum LED light supports photosynthesis and adds a warm glow to your room. Adjustable height.",
+    "createdAt": "2026-03-25T12:44:59.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d8cb9a8aca86569196a3",
+    "title": "Plant Humidifier",
+    "category": "Humidity",
+    "description": "A small, modern, aesthetic portable humidifier misting water vapor next to lush green houseplants.",
+    "image": "assets/care_humidifier.png",
+    "price": 14.5,
+    "details": "Maintain calm spa-like atmosphere. Essential for tropical plants, this humidifier prevents dry crispy leaves and improves indoor air quality.",
+    "createdAt": "2026-03-25T12:44:59.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c4188e618410ddf302d7ac",
+    "title": "Shovel",
+    "description": "Spades, shovels, rakes, lawnmowers, pitchforks, etc., are some of the tools that you can use to bring your garden to life. You can grow flowers, veggies, and spices in your backyard.\n\n",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.AeLNL6CNrfOGxWVtxRjksQHaHa?pid=Api&P=0&h=180",
+    "createdAt": "2026-03-25T17:17:02.376Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "_id": "69725da0bde3eeb4013e3056",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "6965adea1ca9773b89f145d8",
+        "name": "hdhsh",
+        "image": "/assets/bg1.jpg",
+        "price": 178,
+        "quantity": 1,
+        "_id": "69725da0bde3eeb4013e3057"
+      }
+    ],
+    "totalAmount": 178,
+    "status": "Processing",
+    "shippingAddress": {
+      "fullName": "radha",
+      "phone": "9874520136",
+      "addressLine": "sdadsad"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-22T17:25:52.621Z",
+    "__v": 0
+  },
+  {
+    "_id": "69725e28bde3eeb4013e3089",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "695d08a70cef67f0ecc66516",
+        "name": "Rose 10",
+        "image": "/assets/bg1.jpg",
+        "price": 719,
+        "quantity": 1,
+        "_id": "69725e28bde3eeb4013e308a"
+      },
+      {
+        "plant": "6964ec7e1cc3c161aa913394",
+        "name": "Areca Palm 1",
+        "image": "/assets/bg1.jpg",
+        "price": 400,
+        "quantity": 1,
+        "_id": "69725e28bde3eeb4013e308b"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc6650f",
+        "name": "ZZ Plant 3",
+        "image": "/assets/bg2.avif",
+        "price": 422,
+        "quantity": 1,
+        "_id": "69725e28bde3eeb4013e308c"
+      }
+    ],
+    "totalAmount": 1541,
+    "status": "Shipped",
+    "shippingAddress": {
+      "fullName": "radha",
+      "phone": "9023028234",
+      "addressLine": "dsds"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-22T17:28:08.412Z",
+    "__v": 0
+  },
+  {
+    "_id": "697480e2af6272b93fcb4ac6",
+    "user": "696fb500a378e026c6707084",
+    "items": [
+      {
+        "plant": "6965adea1ca9773b89f145d8",
+        "name": "hdhsh",
+        "image": "/assets/bg1.jpg",
+        "price": 178,
+        "quantity": 1,
+        "_id": "697480e2af6272b93fcb4ac7"
+      },
+      {
+        "plant": "6965a68970b195a7425fb824",
+        "name": "radha",
+        "image": "/assets/bg1.jpg",
+        "price": 4000,
+        "quantity": 1,
+        "_id": "697480e2af6272b93fcb4ac8"
+      }
+    ],
+    "totalAmount": 4178,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9874520136",
+      "addressLine": "dsds"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-24T08:20:50.316Z",
+    "__v": 0
+  },
+  {
+    "_id": "697482f8af6272b93fcb4b63",
+    "user": "696fb500a378e026c6707084",
+    "items": [
+      {
+        "plant": "695d08a70cef67f0ecc66516",
+        "name": "Rose 10",
+        "image": "/assets/bg1.jpg",
+        "price": 719,
+        "quantity": 1,
+        "_id": "697482f8af6272b93fcb4b64"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc6650f",
+        "name": "ZZ Plant 3",
+        "image": "/assets/bg2.avif",
+        "price": 422,
+        "quantity": 1,
+        "_id": "697482f8af6272b93fcb4b65"
+      },
+      {
+        "plant": "6964ec7e1cc3c161aa913394",
+        "name": "Areca Palm 1",
+        "image": "/assets/bg1.jpg",
+        "price": 400,
+        "quantity": 1,
+        "_id": "697482f8af6272b93fcb4b66"
+      },
+      {
+        "plant": "6965adea1ca9773b89f145d8",
+        "name": "hdhsh",
+        "image": "/assets/bg1.jpg",
+        "price": 178,
+        "quantity": 1,
+        "_id": "697482f8af6272b93fcb4b67"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc66505",
+        "name": "Jasmine 3",
+        "image": "/assets/bg1.jpg",
+        "price": 390,
+        "quantity": 1,
+        "_id": "697482f8af6272b93fcb4b68"
+      }
+    ],
+    "totalAmount": 2109,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9874520136",
+      "addressLine": "sdd"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-24T08:29:44.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "69748de4db7821f2848b4d36",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "6964e6b11cc3c161aa913355",
+        "name": "radha",
+        "image": "/assets/bg1.jpg",
+        "price": 329,
+        "quantity": 1,
+        "_id": "69748de4db7821f2848b4d37"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc66504",
+        "name": "Peace Lily 2",
+        "image": "/assets/bg4.jpg",
+        "price": 347,
+        "quantity": 1,
+        "_id": "69748de4db7821f2848b4d38"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc66516",
+        "name": "Rose 10",
+        "image": "/assets/bg1.jpg",
+        "price": 719,
+        "quantity": 1,
+        "_id": "69748de4db7821f2848b4d39"
+      },
+      {
+        "plant": "6964ec7e1cc3c161aa913394",
+        "name": "Areca Palm 1",
+        "image": "/assets/bg1.jpg",
+        "price": 400,
+        "quantity": 1,
+        "_id": "69748de4db7821f2848b4d3a"
+      },
+      {
+        "plant": "696fb26aa378e026c6706e75",
+        "name": "Deep Watering Technique",
+        "image": "assets/bg2.avif",
+        "price": 0,
+        "quantity": 1,
+        "_id": "69748de4db7821f2848b4d3b"
+      }
+    ],
+    "totalAmount": 1795,
+    "status": "Delivered",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9874563201",
+      "addressLine": "sas"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-24T09:16:20.090Z",
+    "__v": 0
+  },
+  {
+    "_id": "697790e9abd25a06caf1ad31",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "696fb26aa378e026c6706e75",
+        "name": "Deep Watering Technique",
+        "image": "assets/bg2.avif",
+        "price": 0,
+        "quantity": 1,
+        "_id": "697790e9abd25a06caf1ad32"
+      }
+    ],
+    "totalAmount": 0,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "radha",
+      "phone": "9874520136",
+      "addressLine": "saa"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-26T16:06:01.335Z",
+    "__v": 0
+  },
+  {
+    "_id": "69788e25a5645f00e3867e8f",
+    "user": "696fb500a378e026c6707084",
+    "items": [
+      {
+        "plant": "69724a6f2aa8b969cb90cbe3",
+        "name": "Watering Tip #1",
+        "image": "assets/bg1.jpg",
+        "price": 0,
+        "quantity": 1,
+        "_id": "69788e25a5645f00e3867e90"
+      }
+    ],
+    "totalAmount": 0,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9909818606",
+      "addressLine": "jjij"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-27T10:06:29.349Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978ebcf41ad069b6dfec418",
+    "user": "696fb500a378e026c6707084",
+    "items": [
+      {
+        "plant": "6965adea1ca9773b89f145d8",
+        "name": "hdhsh",
+        "image": "/assets/bg1.jpg",
+        "price": 178,
+        "quantity": 1,
+        "_id": "6978ebcf41ad069b6dfec419"
+      }
+    ],
+    "totalAmount": 178,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9874520136",
+      "addressLine": "ss"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-27T16:46:07.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978ebf141ad069b6dfec430",
+    "user": "696fb500a378e026c6707084",
+    "items": [
+      {
+        "plant": "6965a68970b195a7425fb824",
+        "name": "radha",
+        "image": "/assets/bg1.jpg",
+        "price": 4000,
+        "quantity": 1,
+        "_id": "6978ebf141ad069b6dfec431"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc664f6",
+        "name": "Jasmine 8",
+        "image": "/assets/bg4.jpg",
+        "price": 536,
+        "quantity": 1,
+        "_id": "6978ebf141ad069b6dfec432"
+      }
+    ],
+    "totalAmount": 4536,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "nikita",
+      "phone": "9874520136",
+      "addressLine": "surat"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-01-27T16:46:41.572Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ba7cfcb183551bf0f6f464",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "6985e4f1c41ff619cc246beb",
+        "name": "Croton",
+        "image": "https://i.pinimg.com/originals/20/bf/d7/20bfd7d154ea30965d29770683420e49.jpg",
+        "price": 239,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f465"
+      },
+      {
+        "plant": "6985e4f1c41ff619cc246bed",
+        "name": "Aloe Vera",
+        "image": "https://media.istockphoto.com/photos/aloe-polyphylla-picture-id1405825079?b=1&k=20&m=1405825079&s=170667a&w=0&h=_ROQNHMUzmzUKsyNw5t2cyXmqZPOezgBg_cX595K2i0=",
+        "price": 159,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f466"
+      },
+      {
+        "plant": "695d08a70cef67f0ecc66506",
+        "name": "Geranium ",
+        "image": "https://images.thdstatic.com/productImages/cd92af22-5652-4a6a-b478-799cb638810a/svn/metrolina-greenhouses-annuals-78996-fa_600.jpg",
+        "price": 400,
+        "quantity": 2,
+        "_id": "69ba7cfcb183551bf0f6f467"
+      },
+      {
+        "plant": "6985e4f1c41ff619cc246bef",
+        "name": "Curry Leaf Plant",
+        "image": "https://pipingpotcurry.com/wp-content/uploads/2020/08/Curry-Leaves-plant-Piping-Pot-Curry-1-400x579.jpg",
+        "price": 103,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f468"
+      },
+      {
+        "plant": "6985aa4f7d9612b1cd5c6d28",
+        "name": "Snake Plant Laurentii",
+        "image": "https://www.gardenerreport.com/wp-content/uploads/2023/11/0_InShot_20231113_142823232.jpg",
+        "price": 399,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f469"
+      },
+      {
+        "plant": "6985aa4f7d9612b1cd5c6d2d",
+        "name": "ZZ Plant",
+        "image": "https://th.bing.com/th/id/R.4eb9caa23529ded7aba82f6c4b4fbead?rik=NW2RJpMakMzJCw&riu=http%3a%2f%2fharvestsavvy.com%2fwp-content%2fuploads%2f2025%2f06%2fStandard-ZZ-Plant.jpg&ehk=Nh1QMYV8GJzmV9YYsFbD32XNenmv%2bkP4KTyolOamYNE%3d&risl=&pid=ImgRaw&r=0",
+        "price": 359,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f46a"
+      },
+      {
+        "plant": "6985aa4f7d9612b1cd5c6d2e",
+        "name": "Areca Palm",
+        "image": "https://m.media-amazon.com/images/I/81qF8bUJ1EL._AC_UF1000,1000_QL80_.jpg",
+        "price": 639,
+        "quantity": 1,
+        "_id": "69ba7cfcb183551bf0f6f46b"
+      }
+    ],
+    "totalAmount": 2698,
+    "status": "Delivered",
+    "shippingAddress": {
+      "fullName": "radha",
+      "phone": "9874102536",
+      "addressLine": "surat"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-03-18T10:22:52.220Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ba8d970e965dec73e3c6db",
+    "user": "000000000000000000000000",
+    "items": [
+      {
+        "plant": "695d08a70cef67f0ecc66504",
+        "name": " Marigold",
+        "image": "https://nurserylive.com/cdn/shop/files/nurserylive-g-african-marigold-orange-plant-153227.jpg?v=1751599557",
+        "price": 280,
+        "quantity": 10,
+        "_id": "69ba8d970e965dec73e3c6dc"
+      }
+    ],
+    "totalAmount": 2800,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "radha",
+      "phone": "9874102536",
+      "addressLine": "surat"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-03-18T11:33:43.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3dbf442ecf70ded86f284",
+    "user": "69c3dbd942ecf70ded86f26c",
+    "items": [
+      {
+        "plant": "6985e4f1c41ff619cc246beb",
+        "name": "Croton",
+        "image": "https://i.pinimg.com/originals/20/bf/d7/20bfd7d154ea30965d29770683420e49.jpg",
+        "price": 239,
+        "quantity": 1,
+        "_id": "69c3dbf442ecf70ded86f285"
+      }
+    ],
+    "totalAmount": 239,
+    "status": "Pending",
+    "shippingAddress": {
+      "fullName": "hathi",
+      "phone": "982104785",
+      "addressLine": "surat"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-03-25T12:58:28.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3dbf642ecf70ded86f287",
+    "user": "69c3dbd942ecf70ded86f26c",
+    "items": [
+      {
+        "plant": "6985e4f1c41ff619cc246beb",
+        "name": "Croton",
+        "image": "https://i.pinimg.com/originals/20/bf/d7/20bfd7d154ea30965d29770683420e49.jpg",
+        "price": 239,
+        "quantity": 1,
+        "_id": "69c3dbf642ecf70ded86f288"
+      }
+    ],
+    "totalAmount": 239,
+    "status": "Delivered",
+    "shippingAddress": {
+      "fullName": "hathi",
+      "phone": "982104785",
+      "addressLine": "surat"
+    },
+    "paymentMethod": "cod",
+    "createdAt": "2026-03-25T12:58:30.412Z",
+    "__v": 0
+  }
+]

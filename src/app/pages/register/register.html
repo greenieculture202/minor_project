@@ -1,0 +1,76 @@
+<div class="login-page">
+  <div class="login-card">
+    <!-- Brand Header -->
+    <div class="brand-header">
+      <div class="brand-tag">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L12 22M12 22C12 22 4 18 4 12C4 6 12 2 12 2M12 22C12 22 20 18 20 12C20 6 12 2 12 2"></path>
+        </svg>
+        <span>GREENIE CULTURE</span>
+      </div>
+    </div>
+
+    <h1 class="welcome-title">Join Our Oasis</h1>
+    <p class="subtitle">Ready to start your green journey?</p>
+
+    <form (ngSubmit)="submit()" #f="ngForm" class="login-form">
+      <div class="form-field">
+        <label>FULL NAME</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-user"></i>
+          <input name="name" [(ngModel)]="name" placeholder="Full Name" required />
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>PHONE NUMBER</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-mobile-alt"></i>
+          <input name="phone" [(ngModel)]="phone" placeholder="9876543210" required />
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>EMAIL ADDRESS</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-envelope"></i>
+          <input name="email" [(ngModel)]="email" placeholder="example@gmail.com" required />
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>CREATE PASSWORD</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-key"></i>
+          <input name="password" [(ngModel)]="password" [type]="showPassword ? 'text' : 'password'" placeholder="6+ characters" required />
+          <button type="button" class="eye-toggle" (click)="showPassword = !showPassword">
+            <i [class]="showPassword ? 'fas fa-eye-slash' : 'fas fa-eye'"></i>
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="form-field">
+        <label>RESIDENCE (ADDRESS)</label>
+
+        <div class="pill-input-wrapper" style="height: auto; align-items: flex-start; padding-top: 15px; padding-bottom: 15px;">
+          <i class="fas fa-paper-plane" style="margin-top: 5px;"></i>
+          <textarea name="address" [(ngModel)]="address" placeholder="Complete address for delivery" required 
+            style="flex: 1; border: none; outline: none; background: transparent; font-size: 0.95rem; color: #333; height: 40px; resize: none;"></textarea>
+          <i class="fas fa-edit" style="font-size: 0.8rem; margin-left: 10px; margin-top: 5px;"></i>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-login-pill" style="margin-top: 30px;">
+        SIGN UP NOW <i class="fas fa-arrow-right"></i>
+      </button>
+    </form>
+
+    <div class="footer-links" style="margin-top: 25px;">
+      <p>Already a member? <a routerLink="/login">Sign In</a></p>
+    </div>
+  </div>
+</div>

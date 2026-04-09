@@ -1,0 +1,52 @@
+<div class="login-page">
+  <div class="login-card">
+    <!-- Brand Header -->
+    <div class="brand-header">
+      <div class="brand-tag">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L12 22M12 22C12 22 4 18 4 12C4 6 12 2 12 2M12 22C12 22 20 18 20 12C20 6 12 2 12 2"></path>
+        </svg>
+        <span>GREENIE CULTURE</span>
+      </div>
+    </div>
+
+    <!-- Titles -->
+    <h1 class="welcome-title">Welcome Back</h1>
+    <p class="subtitle">Continue your green journey</p>
+
+    <!-- Form -->
+    <form (ngSubmit)="submit()" #f="ngForm" class="login-form">
+      <div class="form-field">
+        <label>USERNAME</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-user"></i>
+          <input name="email" [(ngModel)]="email" placeholder="username" required />
+        </div>
+
+      </div>
+
+      <div class="form-field">
+        <label>PASSWORD</label>
+        <div class="pill-input-wrapper">
+          <i class="fas fa-key"></i>
+          <input name="password" [(ngModel)]="password" [type]="showPassword ? 'text' : 'password'" placeholder="Enter password" required />
+          <button type="button" class="eye-toggle" (click)="showPassword = !showPassword">
+            <i [class]="showPassword ? 'fas fa-eye-slash' : 'fas fa-eye'"></i>
+          </button>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-login-pill">
+        LOGIN <i class="fas fa-arrow-right"></i>
+      </button>
+    </form>
+
+    <div class="footer-links">
+      <p>Don't have an account? <a routerLink="/register">Register NOW</a></p>
+
+      <a routerLink="/" class="back-home-link">
+        <i class="fas fa-arrow-left"></i> Back to Home
+      </a>
+    </div>
+  </div>
+</div>

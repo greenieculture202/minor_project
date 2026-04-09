@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700,800&family=Poppins:wght@300,400,500,600,700&display=swap');
+
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('/assets/auth_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(255, 255, 255, 0.65); /* Perfect saturated glass from screenshot */
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 35px;
+  padding: 45px 50px;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: cardFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes cardFadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Brand Header --- */
+.brand-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.brand-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(27, 67, 50, 0.1); /* Minty tint */
+  padding: 6px 18px;
+  border-radius: 50px;
+  color: #1b4332;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  border: 1px solid rgba(27, 67, 50, 0.1);
+}
+
+.welcome-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  color: #123b2b;
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #1b4332;
+  font-size: 0.95rem;
+  margin-bottom: 35px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* --- Form Elements --- */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.form-field label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1b4332;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+
+.pill-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 0 20px;
+  height: 54px;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.pill-input-wrapper:focus-within {
+  box-shadow: 0 5px 20px rgba(27, 67, 50, 0.08);
+  border-color: rgba(27, 67, 50, 0.2);
+}
+
+.pill-input-wrapper i {
+  color: #1b4332;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.pill-input-wrapper input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.pill-input-wrapper input::placeholder {
+  color: #bbb;
+}
+
+.suffix {
+  font-size: 0.85rem;
+  background: rgba(27, 67, 50, 0.1);
+  color: #1b4332;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.eye-toggle {
+  background: none;
+  border: none;
+  color: #1b4332;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* --- Buttons --- */
+.btn-login-pill {
+  width: 100%;
+  height: 54px;
+  background: #1b4332; /* Deep Forest Green */
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-login-pill:hover {
+  background: #123b2b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(27, 67, 50, 0.25);
+}
+
+.divider {
+  position: relative;
+  margin: 25px 0;
+  height: 1px;
+  background: rgba(0,0,0,0.08);
+}
+
+.divider span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent; /* screenshot has it over glass */
+  padding: 0 15px;
+  color: rgba(27, 67, 50, 0.5);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.btn-google-pill {
+  width: 100%;
+  height: 54px;
+  background: #ffffff;
+  color: #333;
+  border-radius: 50px;
+  border: 1px solid rgba(0,0,0,0.08);
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-google-pill:hover {
+  background: #fafafa;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Footer Links --- */
+.footer-links {
+  margin-top: 30px;
+}
+
+.footer-links p {
+  color: #1b4332;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.footer-links a {
+  color: #1b4332;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.back-home-link {
+  color: #1b4332 !important;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.back-home-link:hover {
+  opacity: 1;
+  transform: translateX(-5px);
+}

@@ -1,0 +1,149 @@
+/* Global styles */
+:root {
+  /* Luxury Nature Palette - "Eco-Elegance" */
+
+  /* Primary: Deep Forest Green (Trust, Growth, Premium) */
+  --primary-color: #134e4a;
+  /* Primary Light: Soft Sage/Mint (Freshness, Calm) */
+  --primary-light: #34d399;
+  /* Primary Dark: Midnight Green (Depth) */
+  --primary-dark: #042f2e;
+
+  /* Secondary: Warm Beige/Sand (Earth, Warmth) */
+  --secondary-color: #ffffff;
+
+  /* Accent: Muted Gold (Luxury, Highlight) */
+  --accent-color: #cca35e;
+
+  /* Neutral Text Colors */
+  --text-main: #1f2937;
+  /* Charcoal */
+  --text-muted: #4b5563;
+  /* Grey */
+
+  /* "Morning Fresh" Gradient - Soft, Airy, Nature-inspired */
+  --bg-gradient: #ffffff;
+  /* Soft earth tones */
+
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  /* High clarity glass */
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+  --font-body: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+  --font-modern: 'Outfit', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-gradient);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+@keyframes morning-breeze {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 50% 50%;
+  }
+
+  /* Subtle movement like a gentle breeze */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Global Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(52, 211, 153, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Global Animations & Utilities */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-up {
+  animation: reveal-up 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.delay-1 { animation-delay: 0.15s; }
+.delay-2 { animation-delay: 0.3s; }
+.delay-3 { animation-delay: 0.45s; }
+
+/* Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}

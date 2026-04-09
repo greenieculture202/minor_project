@@ -1,0 +1,305 @@
+[
+  {
+    "_id": "695d0b510cef67f0ecc6651c",
+    "name": "niki",
+    "email": "nik@gmail.com",
+    "password": "$2a$10$oW5ek4.w/HF2y.xITli3Fuf.5Tu.OxZ9xVbgtZcHrMXa.kE6FWNU6",
+    "role": "admin",
+    "createdAt": "2026-01-06T13:17:05.245Z",
+    "__v": 0
+  },
+  {
+    "_id": "695d0b8f0cef67f0ecc66520",
+    "name": "radha",
+    "email": "radha@gmail.com",
+    "password": "$2a$10$esf411qrVwvZ7xB5PEnzy.QShj6qJGi3dyP9rGE7dmMIRK5YVdUka",
+    "role": "admin",
+    "createdAt": "2026-01-06T13:18:07.567Z",
+    "__v": 0
+  },
+  {
+    "_id": "695d0d0de5490ef6dbfb3043",
+    "name": "kanha",
+    "email": "kan@gmail.com",
+    "password": "$2a$10$oQvKxmgJvLSmZisITbM9Ie9I7QAI.Delh/eZ0ZdZM0C1u.cwm1KNa",
+    "role": "admin",
+    "createdAt": "2026-01-06T13:24:29.024Z",
+    "__v": 0
+  },
+  {
+    "_id": "695d1438e5490ef6dbfb305b",
+    "name": "abc",
+    "email": "abc@gmail.com",
+    "password": "$2a$10$rElHFapVpju3msOW3n/EyO1Np/ppt2bGSFWmyR11HFAt03SMnuR8G",
+    "role": "admin",
+    "createdAt": "2026-01-06T13:55:04.915Z",
+    "__v": 0
+  },
+  {
+    "_id": "695d15f5e5490ef6dbfb306b",
+    "name": "radhe",
+    "email": "sigade8799@inupup.com",
+    "password": "$2a$10$nL2tXWW/JVYFA0o2Fiu1UuyK3AX18aIAU6bwVIKocKvXFW7s8RstO",
+    "role": "admin",
+    "createdAt": "2026-01-06T14:02:29.414Z",
+    "__v": 0
+  },
+  {
+    "_id": "696fb500a378e026c6707084",
+    "name": "nikita",
+    "email": "nikita@123",
+    "password": "$2a$10$t1Xt5BSo5yB8o5JWxKNPPeKoxp1HLshPqej6hKCL7ffTB0sABERmi",
+    "role": "user",
+    "createdAt": "2026-01-20T17:01:52.870Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970fd752df48b8854755030",
+    "name": "nikita",
+    "email": "kanaji@123",
+    "password": "$2a$10$q453W87pjIrzNG1g7JEDq.b7DN.7lQShozTjKdIlnkj..foiFc9U6",
+    "role": "user",
+    "createdAt": "2026-01-21T16:23:17.547Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970ff632df48b885475504f",
+    "name": "nikita",
+    "email": "123@123",
+    "password": "$2a$10$qQgcv2Zo6giW0.zHkhHZG.VjHdDLO88iV6kiQIYB8jOmGTb9TrDnS",
+    "role": "user",
+    "createdAt": "2026-01-21T16:31:31.174Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970ffc42df48b8854755067",
+    "name": "nikita",
+    "email": "nikitatank@123",
+    "password": "$2a$10$E//jdfJA2t3VZDJKGpyPLe/V3WjmeUjYcmGDv8v/9QeNdf94JVUJS",
+    "role": "user",
+    "createdAt": "2026-01-21T16:33:08.558Z",
+    "__v": 0
+  },
+  {
+    "_id": "697100382df48b885475508c",
+    "name": "nikita",
+    "email": "radharani@123",
+    "password": "$2a$10$YT7ypatKzStpruxoCFMVQOxrYiixAxyrEW8IWiyDAL0xrYfOSigdK",
+    "role": "admin",
+    "createdAt": "2026-01-21T16:35:04.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "6971018d2df48b88547550b8",
+    "name": "nikita",
+    "email": "good@123",
+    "password": "$2a$10$19AETHzKZ6KBpGXjQRCV2OyCQXdmZH4URJLp01FV.TNm6FalaiBH.",
+    "role": "user",
+    "createdAt": "2026-01-21T16:40:45.969Z",
+    "__v": 0,
+    "isBlocked": true
+  },
+  {
+    "_id": "6971024c2df48b88547550e4",
+    "name": "nikita",
+    "email": "bed@123",
+    "password": "$2a$10$.49gHx80U7ilsKmSaRJGrOzhN83JgNHyxvUQaBU/q47sGInoO04Lq",
+    "role": "admin",
+    "createdAt": "2026-01-21T16:43:56.068Z",
+    "__v": 0
+  },
+  {
+    "_id": "6972072fc43a4db39035ce73",
+    "name": "gopi",
+    "email": "gopi@123",
+    "password": "$2a$10$aPMV.p0krSIswTg8/cBqg./4sknQSfudpn4VEBDfMhVUb9ucSpLQe",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-01-22T11:17:03.383Z",
+    "__v": 0
+  },
+  {
+    "_id": "69720907c43a4db39035cef2",
+    "name": "tom",
+    "email": "tom@123",
+    "password": "$2a$10$wvI.CiroW8tGlwjBksaWWeZgOnj7ldHZ6WSgQ8tzfF.wPf3KVkBxK",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-01-22T11:24:55.620Z",
+    "__v": 0
+  },
+  {
+    "_id": "69720b65c43a4db39035cf5e",
+    "name": "nikita",
+    "email": "niki@123",
+    "password": "$2a$10$LvYkaQnCFiTotjgrC0F3/.wYs5DctoczkLFB5Ol45szdbBZE5fx5q",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-01-22T11:35:01.011Z",
+    "__v": 0
+  },
+  {
+    "_id": "69720e91c43a4db39035cfc7",
+    "name": "jerry",
+    "email": "jerry@123",
+    "password": "$2a$10$B6NblZLKIP0Bzw2ACO358OcHoC4AXHs.BEI5YOETEZ41nfyBT2u/e",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-01-22T11:48:33.829Z",
+    "__v": 0
+  },
+  {
+    "_id": "69721134c43a4db39035d004",
+    "name": "doremon",
+    "email": "dora@123",
+    "password": "$2a$10$ltxCFD7TPS1dLa4BkxvSx.EhMuYAzESz92UZ1QD1Tvi2l3lAxDjh2",
+    "role": "user",
+    "isBlocked": true,
+    "createdAt": "2026-01-22T11:59:48.488Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978b40ae47d785ef9e1eb0f",
+    "name": "radha",
+    "email": "radha@123",
+    "password": "$2a$10$k1N.Qlum3Oe5C3TFwJ/O/uXCHX7B0y2TaxuNhwHtSgDqiCPgiRdfy",
+    "phone": "9874520136",
+    "address": "nikita",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-01-27T12:48:10.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "697f192cf3c5c70a6e4c5249",
+    "name": "radha",
+    "email": "radha@1234",
+    "password": "$2a$10$TKuydELb5LaWjYZ7hJ4GN.Mlaex0QGSNFMhHbxLC5jS16pyXOpHz6",
+    "phone": "9909818606",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-02-01T09:13:16.293Z",
+    "__v": 0
+  },
+  {
+    "_id": "6984cc1a0922512c39fb85cd",
+    "name": "nik",
+    "email": "nik@123",
+    "password": "123456",
+    "phone": "1234567890",
+    "address": "abcd",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-02-05T16:58:02.817Z",
+    "__v": 0
+  },
+  {
+    "_id": "6985ebb38c06a2c47a958c56",
+    "name": "nobita",
+    "email": "nobi@123",
+    "password": "123123",
+    "phone": "8155942985",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-02-06T13:25:07.261Z",
+    "__v": 0
+  },
+  {
+    "_id": "699f0e97aa115d2ec1b721a5",
+    "name": "aesha",
+    "email": "aes@gmail.com",
+    "password": "123123",
+    "phone": "9632587458",
+    "address": "aesghjha",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-02-25T15:00:39.658Z",
+    "__v": 0
+  },
+  {
+    "_id": "699fc20abb072d19580f374a",
+    "name": "nikita",
+    "email": "surat",
+    "password": "123123",
+    "phone": "9852360147",
+    "address": "subham flet",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-02-26T03:46:18.916Z",
+    "__v": 0
+  },
+  {
+    "_id": "699fc2cabb072d19580f376d",
+    "name": "demo",
+    "email": "demo@gmail.com",
+    "password": "123123",
+    "phone": "9874520136",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-02-26T03:49:30.619Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ba6f7d0f67014e564f5ee9",
+    "name": "Nikita Tank",
+    "email": "nikita@gmail.com",
+    "password": "123123",
+    "phone": "9874102536",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-03-18T09:25:17.777Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ba8fa35c35d6198b6f809e",
+    "name": "Nikita Tank",
+    "email": "tanknikita982@gmail.com",
+    "password": "123123",
+    "phone": "9874102536",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-03-18T11:42:27.461Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3d2789f84d20e43d2c653",
+    "name": "krishna",
+    "email": "radharani@gmail.com",
+    "password": "123123",
+    "phone": "9874520136",
+    "address": "surat",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": "2026-03-25T12:18:00.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3dbd942ecf70ded86f26c",
+    "name": "hathi",
+    "email": "hathi@gmail.com",
+    "password": "123123",
+    "phone": "982104785",
+    "address": "surat",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-03-25T12:58:01.839Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c3e97a3f6932f62caafbb0",
+    "name": "test",
+    "email": "test@gmail.com",
+    "password": "147147",
+    "phone": "9874520136",
+    "address": "surat",
+    "role": "user",
+    "isBlocked": false,
+    "createdAt": "2026-03-25T13:56:10.781Z",
+    "__v": 0
+  }
+]

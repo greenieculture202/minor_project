@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700,800&family=Poppins:wght@300,400,500,600,700&display=swap');
+
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('/assets/auth_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 800px; /* Slightly wider for the larger form if needed, but 600-800 is better */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  border-radius: 40px;
+  padding: 50px 60px;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: cardFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 600px) {
+  .login-card {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+}
+
+@keyframes cardFadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.brand-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.brand-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(27, 67, 50, 0.08);
+  padding: 6px 18px;
+  border-radius: 50px;
+  color: #1b4332;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  border: 1px solid rgba(27, 67, 50, 0.08);
+}
+
+.welcome-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem;
+  color: #123b2b;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #1b4332;
+  font-size: 0.9rem;
+  margin-bottom: 35px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.form-field label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #1b4332;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+
+.pill-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px; /* Screenshot shows slightly less rounded than true pill, more like 12-15px */
+  padding: 0 15px;
+  height: 52px;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+/* Update to match the screenshot's slightly squared rounded corners if needed, but the user said pill-like earlier */
+/* Actually the screenshot shows very soft rounded corners, maybe border-radius 15px */
+.pill-input-wrapper {
+  border-radius: 15px;
+}
+
+.pill-input-wrapper:focus-within {
+  box-shadow: 0 5px 20px rgba(27, 67, 50, 0.08);
+  border-color: rgba(27, 67, 50, 0.2);
+}
+
+.pill-input-wrapper i {
+  color: #1b4332;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
+
+.pill-input-wrapper input, 
+.pill-input-wrapper select, 
+.pill-input-wrapper textarea {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.pill-input-wrapper input::placeholder {
+  color: #ccc;
+}
+
+.eye-toggle {
+  background: none;
+  border: none;
+  color: #1b4332;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.btn-login-pill {
+  width: 100%;
+  height: 54px;
+  background: #1b4332;
+  color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-login-pill:hover {
+  background: #123b2b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(27, 67, 50, 0.2);
+}
+
+.footer-links p {
+  color: #1b4332;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.footer-links a {
+  color: #1b4332;
+  text-decoration: underline;
+  font-weight: 700;
+}
